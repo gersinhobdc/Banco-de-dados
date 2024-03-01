@@ -85,8 +85,11 @@ desc tbVendas;
 insert into tbFuncionarios(nome,email,telCel,sexo,salario)
 	values('Amarildo da Cunha','amari.cunha@gmail.com','1192172-2769','M',1500.00);
 
+insert into tbFuncionarios(nome,email,telCel,sexo,salario) 
+	values('Gerson Cesar Graziani Junior','gerson.graziani@gmail.com','1193310-2673','M',1500.00);
+
 insert into tbFuncionarios(nome,email,telCel,sexo,salario)
-	values('Gerson Parra Graziani da Silva','gerson.parra@gmail.com','1194958-2845','M',5000.00);
+	values('Gabriel Parra Santos Silva','gabriel.parra.santos@outlook.com','1198876-4006','M',1500.00);
 
 insert into tbFuncionarios(nome,email,telCel,sexo,salario)
 	values('Manuela Cassiel','manulinda123@gmail.com','1195474-2854','F',1500.00);
@@ -103,8 +106,14 @@ insert into	tbUsuarios(nome,senha,codFunc)
 insert into	tbProdutos(descricao,valor,qtde,dataEntrada,codForn)
 	values('Folha A4',50.00,10,'2024/03/01',1);
 
+insert into	tbProdutos(descricao,valor,qtde,dataEntrada,codForn)
+	values('Caderno',50.00,10,'2024/03/01',2);
+
 insert	into tbVendas(dataVenda,qtde,valor,codUsu,codProd,codCli)
 	values('2024/03/01',5,50.00,1,1,1);
+
+insert	into tbVendas(dataVenda,qtde,valor,codUsu,codProd,codCli)
+	values('2024/03/01',5,50.00,1,2,1);
 
 
 
